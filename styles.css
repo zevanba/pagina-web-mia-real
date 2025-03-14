@@ -34,197 +34,65 @@ header p {
     color: #ecf0f1;
 }
 
-/* Navegación */
-nav {
-    background-color: #3498db;
-    padding: 10px 0;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-nav ul li {
-    display: inline;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.1em;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Sección Bienvenida */
-.bienvenida {
+/* Sección Sobre Mí */
+.about {
     padding: 40px 0;
     background-color: white;
     text-align: center;
 }
 
-.bienvenida h2 {
+.about h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2em;
     margin-bottom: 20px;
     color: #2c3e50;
 }
 
-.bienvenida p {
+.about p {
     font-size: 1.1em;
     max-width: 600px;
     margin: 0 auto;
 }
 
-/* Sección de Cursos */
-.cursos {
+/* Sección de Redes Sociales */
+.social-links {
     padding: 40px 0;
-    background-color: white;
+    background-color: #ecf0f1;
+    text-align: center;
 }
 
-.cursos h2 {
+.social-links h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2em;
-    text-align: center;
     margin-bottom: 30px;
     color: #2c3e50;
 }
 
-.curso {
-    background-color: #ecf0f1;
-    border-radius: 8px;
-    padding: 20px;
-    margin: 20px 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
-.curso h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
-    margin-bottom: 15px;
-    color: #2c3e50;
-}
-
-.curso p {
-    font-size: 1em;
-    margin-bottom: 15px;
-}
-
-.curso ul {
-    list-style-type: none;
-    padding: 0;
-    margin-bottom: 20px;
-}
-
-.curso ul li {
-    margin: 10px 0;
-    font-size: 0.95em;
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
+.social-link {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
     background-color: #3498db;
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 1em;
     transition: background-color 0.3s ease;
 }
 
-.btn:hover {
+.social-link:hover {
     background-color: #2980b9;
 }
 
-.btn.disabled {
-    background-color: #bdc3c7;
-    cursor: not-allowed;
-}
-
-/* Sección de Métodos de Pago */
-.metodos-pago {
-    padding: 40px 0;
-    background-color: #ecf0f1;
-    text-align: center;
-}
-
-.metodos-pago h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2em;
-    margin-bottom: 20px;
-    color: #2c3e50;
-}
-
-.metodos-pago p {
-    font-size: 1.1em;
-    margin-bottom: 30px;
-}
-
-.metodos {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-}
-
-.metodo {
-    background-color: white;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 150px;
-}
-
-.metodo i {
-    font-size: 3em;
-    color: #3498db;
-    margin-bottom: 10px;
-}
-
-.metodo p {
-    font-size: 1em;
-    margin: 0;
-    color: #333;
-}
-
-.correo-paypal {
-    font-size: 0.9em;
-    color: #666;
-    margin-top: 10px;
-}
-
-.proximamente-mas {
-    font-size: 0.9em;
-    color: #666;
-    margin-top: 20px;
-    font-style: italic;
-}
-
-/* Sección Próximamente */
-.proximamente {
-    padding: 40px 0;
-    background-color: white;
-    text-align: center;
-}
-
-.proximamente h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2em;
-    margin-bottom: 20px;
-    color: #2c3e50;
-}
-
-.proximamente p {
-    font-size: 1.1em;
-    margin-bottom: 30px;
+.social-link i {
+    margin-right: 10px;
+    font-size: 1.2em;
 }
 
 /* Pie de página */
